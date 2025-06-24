@@ -1,0 +1,9 @@
+face_mask_detector/
+├── data/                               # Dataset (with_mask / without_mask folders)
+├── train_model.py                      # Train the CNN
+├── mask_detector.model                 # Saved model
+├── detector.py                         # Real-time detection via webcam
+├── app.py                              # Optional: Streamlit UI
+├── requirements.txt
+├── README.md
+└── .gitignore
